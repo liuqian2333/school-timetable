@@ -1,0 +1,27 @@
+﻿<Window x:Class="课程管理系统.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:window2="clr-namespace:课程管理系统"
+        xmlns:local="clr-namespace:课程管理系统"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Style x:Key="style1" TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="SkyBlue"/>
+        </Style>
+    </Window.Resources>
+    <Grid Background="LightCyan">
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Height="38" Margin="341,130,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Height="38" Margin="341,203,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="150"/>
+        <TextBlock HorizontalAlignment="Left" Margin="248,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="用户名"/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="248,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="248,216,0,0" TextWrapping="Wrap" Text="密码" VerticalAlignment="Top"/>
+        <Button x:Name="Button1" HorizontalAlignment="Left" Margin="377,285,0,0" VerticalAlignment="Top" Width="75" Click="Button1_Click">
+            登录
+        </Button>
+        
+        <TextBlock HorizontalAlignment="Left" Margin="119,37,0,0" TextWrapping="Wrap" Text="XXX高校选课系统" VerticalAlignment="Top" Height="37" Width="273"/>
+    </Grid>
+</Window>
