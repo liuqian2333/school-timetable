@@ -3,3 +3,10 @@
 目标：做一个学生选课系统，一开始想做一个课表因为功能简单所以又改成学生选课系统。
 
 我现在完成的部分是学生选课，查看已选的课程，查看公告，发布讨论的部分。
+
+源代码：
+App.xaml App.xaml.cs
+MainWindow.xaml MainWindow.xaml.cs
+功能.xaml 功能.xaml.cs
+可执行程序：
+课程管理系统.exe
